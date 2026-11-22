@@ -165,7 +165,7 @@ function Hero() {
       </div>
       <div className="hero-portrait">
         <img
-          src="/vidushi-singh.jpeg"
+          src={`${import.meta.env.BASE_URL}vidushi-singh.jpeg`}
           alt="Portrait of Vidushi Singh"
           fetchPriority="high"
         />
